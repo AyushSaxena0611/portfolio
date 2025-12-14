@@ -1,0 +1,20 @@
+#!/bin/bash
+# Quick Start - Copy and paste commands below
+
+echo "🚀 Starting Ayush Saxena's Portfolio Setup..."
+echo ""
+echo "Step 1: Install Dependencies"
+echo "    npm install"
+echo ""
+echo "Step 2: Start Development Server"
+echo "    npm run dev"
+echo ""
+echo "Step 3: Open Browser"
+echo "    http://localhost:3000"
+echo ""
+echo "Step 4: Build for Production"
+echo "    npm run build"
+echo ""
+echo "✨ Your portfolio will be available at http://localhost:3000"
+echo "📄 All files are configured and ready to go!"
+echo ""

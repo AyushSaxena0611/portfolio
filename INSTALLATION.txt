@@ -1,0 +1,111 @@
+================================================================================
+                AYUSH SAXENA'S PORTFOLIO - INSTALLATION GUIDE
+================================================================================
+
+QUICK START (3 STEPS):
+================================================================================
+
+1. INSTALL DEPENDENCIES
+   $ npm install
+
+2. START DEVELOPMENT SERVER
+   $ npm run dev
+
+3. OPEN IN BROWSER
+   URL: http://localhost:3000
+
+================================================================================
+                            COMPLETE GUIDE
+================================================================================
+
+SYSTEM REQUIREMENTS:
+- Node.js 16+ (Download from https://nodejs.org/)
+- npm 8+ (Comes with Node.js)
+- Modern web browser
+
+INSTALLATION STEPS:
+1. Navigate to project directory:
+   $ cd /workspaces/portfolio
+
+2. Install all dependencies:
+   $ npm install
+
+3. Start development server:
+   $ npm run dev
+
+4. Open http://localhost:3000 in your browser
+
+AVAILABLE COMMANDS:
+- npm run dev     → Start development server (hot reload enabled)
+- npm run build   → Build for production (creates 'dist' folder)
+- npm run preview → Preview production build locally
+
+FEATURES INCLUDED:
+✓ React 18.2.0 - Modern component framework
+✓ Tailwind CSS 3.4.0 - Utility-first styling
+✓ Vite 5.0.0 - Ultra-fast build tool
+✓ GSAP 3.12.5 - Professional animations
+✓ Responsive design - Mobile to desktop
+✓ Dark theme - Professional appearance
+✓ Smooth scrolling - Navigation links
+✓ Tech carousel - Animated tech stack
+✓ Contact form - Working form validation
+✓ Resume download - ONE-CLICK DOWNLOAD (FIXED!)
+
+PROJECT STRUCTURE:
+src/
+├── components/
+│   ├── Navigation.jsx  - Navbar with social links
+│   ├── Hero.jsx        - Hero section with carousel
+│   ├── Projects.jsx    - Project showcase
+│   ├── About.jsx       - About me section
+│   ├── Contact.jsx     - Contact form
+│   └── Resume.jsx      - Download button
+├── App.jsx             - Main app component
+├── main.jsx            - React entry point
+└── index.css           - Global Tailwind styles
+
+CUSTOMIZATION:
+- Edit colors: tailwind.config.js (colors section)
+- Update content: src/components/*.jsx files
+- Change fonts: index.html (Google Fonts link)
+- Adjust animations: GSAP calls in components
+
+DEPLOYMENT:
+1. Build: npm run build
+2. Deploy 'dist' folder to:
+   - Vercel (GitHub integration)
+   - Netlify (drag & drop or Git)
+   - GitHub Pages (push dist to gh-pages)
+   - Any static hosting (Firebase, S3, etc)
+
+TROUBLESHOOTING:
+Problem: Port 3000 in use
+Solution: npm run dev -- --port 3001
+
+Problem: Dependencies not installing
+Solution: rm -rf node_modules package-lock.json && npm install
+
+Problem: Images not loading
+Solution: Check image URLs in component files
+
+Problem: Styles not applying
+Solution: npm run dev (rebuilds Tailwind)
+
+SUPPORT DOCUMENTS:
+- README.md            - Full documentation
+- SETUP_GUIDE.md       - Detailed setup guide
+- ENHANCEMENT_SUMMARY  - Complete changes overview
+
+================================================================================
+                            YOU'RE ALL SET!
+================================================================================
+
+Your portfolio is ready to go! Run these commands to start:
+
+$ npm install
+$ npm run dev
+
+Open http://localhost:3000 to see your portfolio.
+
+Happy coding! 🚀
