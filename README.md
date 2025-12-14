@@ -1,4 +1,4 @@
-# Ayush Saxena's Portfolio - Enhanced Resume 🚀
+# Ayush Saxena
 
 A modern, professional portfolio website built with **React**, **Tailwind CSS**, and **GSAP animations**. Features a fully functional resume download, smooth scrolling, and interactive components.
 
