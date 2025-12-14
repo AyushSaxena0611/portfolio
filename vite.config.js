@@ -3,13 +3,14 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/',  // Set to '/' for custom domain or '/portfolio/' for GitHub Pages subdirectory
+  base: '/',
   server: {
     port: 3000,
     open: true
   },
   build: {
     outDir: 'dist',
-    sourcemap: false
+    sourcemap: false,
+    minify: 'terser'
   }
 })
